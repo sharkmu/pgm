@@ -1,0 +1,37 @@
+# --- by ChatGPT ---
+
+# Flutter project: prioritize Dart language statistics
+
+# Count Dart files as main language
+*.dart linguist-detectable=true
+
+# Exclude platform-specific and auto-generated files
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+linux/** linguist-vendored
+windows/** linguist-vendored
+web/** linguist-vendored
+
+# Exclude build and configuration files
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
+*.gradle linguist-vendored
+*.plist linguist-vendored
+*.podspec linguist-vendored
+*.xml linguist-vendored
+
+# Exclude native code files
+*.cpp linguist-vendored
+*.c linguist-vendored
+*.h linguist-vendored
+*.swift linguist-vendored
+*.kt linguist-vendored
+*.java linguist-vendored
+*.mm linguist-vendored
+*.m linguist-vendored
+
+# Exclude web-related and other non-Dart sources
+*.html linguist-vendored
+*.js linguist-vendored
+*.css linguist-vendored
