@@ -1,5 +1,8 @@
 # Project Good Morning
 
+> [!CAUTION]
+> This project is discontinued. Further developments are not expected.
+
 An application that helps you start your mornings by providing need-to-know information (e.g.: weather, stock prices, news, etc.)
 
 ## Official Discord Support Server
